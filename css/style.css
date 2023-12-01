@@ -1,0 +1,233 @@
+@font-face {
+  font-family: 'YEONGJUPunggiGinsengTTF';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/YEONGJUPunggiGinsengTTF.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'YEONGJUPunggiGinsengTTF';
+  box-sizing: border-box;
+}
+
+a {
+  all: unset;
+}
+
+body {
+  background-color: rgb(216, 214, 214);
+  margin: 0;
+}
+
+img {
+  margin: 0;
+  padding: 0;
+  width: 50px;
+  height: 50px;
+  display: inline-flex;
+  margin-right: 65rem;
+}
+
+input {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 32rem;
+  height: 2.5rem;
+  border-radius: 50px;
+  border: none;
+  background-color: rgb(226, 222, 222);
+  padding-left: 20px;
+  margin-right: 15rem;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 0 20px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header ul li {
+  margin: 2px 18px;
+  font-size: 1.3rem;
+}
+
+header ul li a {
+  display: inline-block;
+  position: relative;
+}
+
+header ul li a:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 2.5px;
+  background-color: rgb(75, 71, 71);
+  transition: all .5s;
+}
+
+header ul li a:before {
+  content: "";
+  position: absolute;
+  right: 50%;
+  bottom: 0;
+  width: 0;
+  height: 2.5px;
+  background-color: rgb(75, 71, 71);
+  transition: all .5s;
+}
+
+header ul li a:hover {
+  cursor: pointer;
+}
+
+header ul li a:hover:after {
+  width: 50%;
+}
+
+header ul li a:hover:before {
+  width: 50%;
+}
+
+.bg {
+  width: 100%;
+  height: 5rem;
+  background-color: rgb(216, 214, 214);
+}
+
+.bg ul li {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin: 10px 15px;
+  margin-top: 4.2rem;
+}
+
+.bg ul li a {
+  display: inline-block;
+  position: relative;
+}
+
+.bg ul li a:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 2.5px;
+  background-color: rgb(75, 71, 71);
+  transition: all .5s;
+}
+
+.bg ul li a:before {
+  content: "";
+  position: absolute;
+  right: 50%;
+  bottom: 0;
+  width: 0;
+  height: 2.5px;
+  background-color: rgb(75, 71, 71);
+  transition: all .5s;
+}
+
+.bg ul li a:hover {
+  cursor: pointer;
+}
+
+.bg ul li a:hover:after {
+  width: 50%;
+}
+
+.bg ul li a:hover:before {
+  width: 50%;
+}
+
+.sc {
+  width: 100%;
+  height: 15rem;
+  background-color: rgb(54, 54, 76);
+}
+
+.sc h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  font-size: 1.7rem;
+  color: white;
+}
+
+.sc .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sc .btn .btn1 {
+  width: 135px;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  margin: 10px 7px;
+  background-color: rgb(19, 188, 160);
+  color: white;
+}
+
+.sc .btn i {
+  margin: auto 4px;
+}
+
+.sc .btn .btn2 {
+  width: 135px;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  margin: 10px 7px;
+  background-color: rgb(78, 178, 218);
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post {
+  margin: 50px 20px;
+  width: 25rem;
+  height: 17rem;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 7px 7px 10px -3px grey;
+}
+
+.post h1,
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
